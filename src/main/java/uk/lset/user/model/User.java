@@ -15,7 +15,7 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class User {
   @Id
-  @GeneratedValue(strategy=GenerationType.AUTO)
+  //@GeneratedValue(strategy=GenerationType.AUTO)
   @Getter(AccessLevel.PUBLIC)
   @Setter(AccessLevel.PUBLIC)
   private Integer id;
